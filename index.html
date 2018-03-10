@@ -25,47 +25,48 @@
         </div>
 
         <div class="form"> 
+            <p></p>
             <form action="/action_page.php">
                 <label for="county">Gender</label>
                     <select id="county" name="county">
-                        <option value="dekalb">None</option>
-                        <option value="fulton">Female</option>
-                        <option value="dekalb">Male</option>
-                        <option value="dekalb">I choose not to identify.</option>
+                        <option value="None">None</option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="notIdentify">I choose not to identify.</option>
                     </select>
 
                 <label for="county">Age</label>
                     <select id="county" name="county">
-                        <option value="dekalb">None</option>
-                        <option value="fulton">Under 18</option>
-                        <option value="dekalb">Over 18</option>
-                        <option value="dekalb">Over 55</option>
-                        <option value="dekalb">I choose not to identify.</option>
+                        <option value="None">None</option>
+                        <option value="under18">Under 18</option>
+                        <option value="over18">Over 18</option>
+                        <option value="over55">Over 55</option>
+                        <option value="notIdentify">I choose not to identify.</option>
                     </select>
 
                 <label for="county">Disability Status</label>
                     <select id="county" name="county">
-                        <option value="dekalb">None</option>
-                        <option value="fulton">I am disabled.</option>
-                        <option value="dekalb">I am not disabled.</option>
-                        <option value="dekalb">I choose not to identify.</option>
+                        <option value="None">None</option>
+                        <option value="disable">I am disabled.</option>
+                        <option value="notDisable">I am not disabled.</option>
+                        <option value="notIdentify">I choose not to identify.</option>
                     </select>
 
                 <label for="county">Veteran Status</label>
                     <select id="county" name="county">
-                        <option value="dekalb">None</option>
-                        <option value="fulton">I am a veteran.</option>
-                        <option value="dekalb">I am not a veteran.</option>
-                        <option value="dekalb">I choose not to identify.</option>
+                        <option value="none">None</option>
+                        <option value="veteran">I am a veteran.</option>
+                        <option value="notVeteran">I am not a veteran.</option>
+                        <option value="notIdentify">I choose not to identify.</option>
                     </select>
 
                 <label for="county">Are you looking for shelters/charitable resources with additional family members?</label>
                     <select id="county" name="county">
-                        <option value="dekalb">None</option>
-                        <option value="fulton">Yes, I will be bringing my kids.</option>
-                        <option value="dekalb">Yes, I will be bringing my spouse.</option>
-                        <option value="dekalb">Yes, I will be bringing my spouse and kids.</option>
-                        <option value="fulton">No, I am only seeking for myself.</option>
+                        <option value="none">None</option>
+                        <option value="haveKids">Yes, I will be bringing my kids.</option>
+                        <option value="haveSpouse">Yes, I will be bringing my spouse.</option>
+                        <option value="spouseNKids">Yes, I will be bringing my spouse and kids.</option>
+                        <option value="forMyself">No, I am only seeking for myself.</option>
                     </select>
             </form>
         </div>
@@ -74,16 +75,16 @@
             <form action="/action_page.php">
                 <label for="county">What type of shelter(s) are you looking for?</label>
                 <select id="county" name="county">
-                    <option value="dekalb">None</option>
-                    <option value="fulton">Living shelter</option>
-                    <option value="dekalb">Emergency weather shelter</option>
+                    <option value="none">None</option>
+                    <option value="livingShelter">Living shelter</option>
+                    <option value="emergencyShelter">Emergency weather shelter</option>
                 </select>
 
             <label for="county">What type of charitable resource(s) are you looking for?</label>
                 <select id="county" name="county">
-                    <option value="dekalb">None</option>
-                    <option value="fulton">Charitable organization</option>
-                    <option value="dekalb">Soup kitchen</option>
+                    <option value="none">None</option>
+                    <option value="charitableOrg">Charitable organization</option>
+                    <option value="soupKitchen">Soup kitchen</option>
                 </select>
 
                 <input type="submit" value="Submit">
