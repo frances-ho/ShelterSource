@@ -1,4 +1,4 @@
-# Hello! This is ShelterSource ( Community Connect) 
+# Hello! This is Community Connect (Shelter Source)
 
 Description on compiling and running code: 
 
