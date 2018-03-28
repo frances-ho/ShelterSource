@@ -164,6 +164,16 @@ html, body {
     text-decoration: none;
 }
 
+#pagebutton a:active {
+    color: rgb(240, 142, 51);
+    text-decoration: none;
+}
+
+#pagebutton2 a:active{
+    color: rgb(240, 142, 51);
+    text-decoration: none;
+}
+
 input[type=text], select {
     width: 100%;
 }
