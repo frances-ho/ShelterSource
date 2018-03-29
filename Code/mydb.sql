@@ -58,20 +58,20 @@ INSERT INTO `county` (`shetlerID`, `County`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `disability`
+-- Table structure for table `dissability`
 --
 
-DROP TABLE IF EXISTS `disability`;
-CREATE TABLE IF NOT EXISTS `disability` (
+DROP TABLE IF EXISTS `dissability`;
+CREATE TABLE IF NOT EXISTS `dissability` (
   `shetlerID` int(11) NOT NULL,
   `diss_ans` varchar(3) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf16le;
 
 --
--- Dumping data for table `disability`
+-- Dumping data for table `dissability`
 --
 
-INSERT INTO `disability` (`shetlerID`, `dis_ans`) VALUES
+INSERT INTO `dissability` (`shetlerID`, `diss_ans`) VALUES
 (1, 'yes'),
 (2, 'no'),
 (3, 'no'),
