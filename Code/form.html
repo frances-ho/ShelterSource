@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Content Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/form.css"/>
+    <script src="jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+</head>
+<body>
+    <div id="contentContainer">
+        <div id="wrapper">
+                <form name="form" action="result2.php" method="post">
+                <div id="itemOne" class="content">
+                        <label>County</label>
+                            <select name="county">
+                                <option>Dekalb</option>
+                                <option>Fulton</option>
+                            </select>
+                </div>
+                <div id="itemTwo" class="content">
+                        <label>Disabilty</label>
+                            <select name="disability">
+                                <option>yes</option>
+                                <option>no</option>
+                                <option>I choose not to identify</option>
+                            </select>  
+                </div>
+                <div id="itemThree" class="content">
+                    <label>Veteran</label>
+                        <select name="veteran">
+                            <option>yes</option>
+                            <option>no</option>
+                            <option>I choose not to identify</option>
+                        </select>  
+                </div>
+                <div id="itemFour" class="content">
+                    <label>Type of Resource</label>
+                        <select name="resources[]" multiple>
+                            <option>Charitable Organization</option>
+                            <option>Women-Only Shelter</option>
+                            <option>Men-Only Shelter</option>
+                            <option>Family Shelter</option>
+                            <option>Youth Shelter</option>
+                            <option>Emergency Shelter</option>
+                        </select>  
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="navLinks">
+        <ul>
+            <li class="itemLinks" data-pos="0px"></li>
+            <li class="itemLinks" data-pos="-550px"></li>
+            <li class="itemLinks" data-pos="-1100px"></li>
+            <li class="itemLinks" data-pos="-1650px"></li>
+        </ul>
+    </div>
+</body>
+
+<script></script>
+</html>
