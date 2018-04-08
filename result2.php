@@ -16,7 +16,7 @@
 <!-- PHP STARTS -->
 <?php
 
-require'/Library/WebServer/Documents/Require/require.php';
+require'Require/require.php';
 
 $value_1 = $_POST["county"];
 $value_2 = $_POST["disability"];
