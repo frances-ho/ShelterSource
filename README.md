@@ -31,7 +31,7 @@ for all these components puts it well within the realm of feasibility.
 
 ### Updates
 - 03/25/18 - Database planning -> Created Enhanced-Entity Relationship diagram (EER) of organized researched data of local shelters. 
-- 03/26/18 - Create the database -> Imported researched data of local shelters in Dekalb and Fulton to MySQL database - specified columns and its type, set up primary key and foreign key. 
+- 03/26/18 - Create the database -> Imported researched data of local shelters in Dekalb and Fulton to MySQL database - specified columns and its type, set up primary keys and foreign keys. 
 - 03/26-31/18 - Research to connect database with front-end -> learning to use PHP and SQL for querying.
 - 04/01/18 - Successfully connected the database to the front-end -> created a functional .html form containing dropdown menus with various user selected options. Once submitted, the form will connect to the databae via php and return the query in the form of a list of shelters depending on the options selected. 
 - 04/06/18 - Successfully deployed the front-end and back-end to Heroku, a free application hosting service. 
