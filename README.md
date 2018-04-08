@@ -37,9 +37,9 @@ for all these components puts it well within the realm of feasibility.
 - 04/06/18 - Successfully deployed the front-end and back-end to Heroku, a free application hosting service. 
 
 ### To Do:
-[ ] Revise the front-end - create a simplify and easy to navigate UI 
-[ ] Testing - write a testing script and began testing
-[ ] Deploy final code to Heroku
+[] Revise the front-end - create a simplify and easy to navigate UI 
+[] Testing - write a testing script and began testing
+[] Deploy final code to Heroku
 
 Contributors:
 1. Ben Cardwell (team coordinator): Documentation
