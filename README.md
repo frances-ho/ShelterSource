@@ -1,6 +1,6 @@
 # Shelter Source 
 
-A group project for Software Engineering Spring 2018 by Jen Ho, Peter Lin, Roberto Diaz, and Ben Cardwell. 
+A group project for Software Engineering Spring 2018 at Georgia State University. 
 
 Visit our web application: https://thesheltersource.herokuapp.com/form.html
 
