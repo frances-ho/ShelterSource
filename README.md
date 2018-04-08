@@ -1,5 +1,7 @@
 # Shelter Source 
 
+![alt text](https://ibb.co/dSRk1c)
+
 A group project for Software Engineering Spring 2018 at Georgia State University. 
 
 Visit our web application: https://thesheltersource.herokuapp.com/form.html
