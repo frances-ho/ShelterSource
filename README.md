@@ -1,6 +1,6 @@
 # Shelter Source 
 
-![alt text](https://preview.ibb.co/cRh3nH/logo.jpg)
+![alt text](https://image.ibb.co/h9SdnH/Webp_net_resizeimage.png)
 
 A group project for Software Engineering Spring 2018 at Georgia State University. 
 
