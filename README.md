@@ -1,6 +1,6 @@
 # Shelter Source 
 
-![alt text](https://ibb.co/dSRk1c)
+![alt text](https://preview.ibb.co/cRh3nH/logo.jpg)
 
 A group project for Software Engineering Spring 2018 at Georgia State University. 
 
