@@ -44,5 +44,5 @@ for all these components puts it well within the realm of feasibility.
 Contributors:
 1. Ben Cardwell (team coordinator): Documentation
 2. Jen (Duyen) Ho: Front-end & back-end developer 
-3. Peter Lin: Research & Media 
+3. Peter Lin: Research, media, and testing 
 4. Roberto Diaz: Back-end developer 
